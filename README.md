@@ -17,6 +17,17 @@ It is designed to **expose Angular components at build time** to other **host ap
 
 ---
 
+🔧 Setup
+
+1. Install dependencies
+   npm install
+
+2. build the remote app
+   npm run watch
+
+3. run the ssr server
+   npm run server
+
 ng new remote
 ng add @nguniversal/express-engine
 npm run dev:ssr

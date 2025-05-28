@@ -2,15 +2,8 @@
   "name": "remote2",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "dev:ssr": "ng run remote2:serve-ssr",
-    "serve:ssr": "node dist/remote2/server/main.js",
-    "build:ssr": "ng build && ng run remote2:server",
-    "prerender": "ng run remote2:prerender",
-    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
+    "watch": "ng build --watch",
+    "server": "ng run remote2:server && node dist/remote2/server/main.js"
   },
   "private": true,
   "dependencies": {
