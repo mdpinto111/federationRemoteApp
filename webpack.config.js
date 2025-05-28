@@ -52,15 +52,7 @@ module.exports = {
           strictVersion: true,
           requiredVersion: "auto",
         },
-        "@angular/common/http": {
-          singleton: true,
-          strictVersion: true,
-          requiredVersion: "auto",
-        },
-
-        ...sharedMappings.getDescriptors(),
       }),
     }),
-    sharedMappings.getPlugin(),
   ],
 };
